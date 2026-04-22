@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI-Powered SRE Services | CloudSufi</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="CloudSufi's AI-powered SRE services — AIOps, autonomous incident response, SLO engineering, and more. Get a free reliability assessment." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="AI-Powered SRE Services | CloudSufi" />
+  <meta property="og:description" content="CloudSufi's AI-powered SRE services — AIOps, autonomous incident response, SLO engineering, and more. Get a free reliability assessment." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.cloudsufi.com/sre" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ======= NAVBAR ======= -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-cloud">Cloud</span><span class="logo-sufi">Sufi</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#">Solutions</a></li>
+        <li><a href="#offerings" class="active">Services</a></li>
+        <li><a href="#">Industries</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Company</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+      <div class="nav-ctas" id="navCtas">
+        <a href="#contact" class="btn btn-outline-dark">Book Workshop</a>
+        <a href="#contact" class="btn btn-dark">Request Demo</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile menu panel -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <ul class="mobile-nav-links">
+        <li><a href="#">Solutions</a></li>
+        <li><a href="#offerings">Services</a></li>
+        <li><a href="#">Industries</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Company</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+      <div class="mobile-nav-ctas">
+        <a href="#contact" class="btn btn-outline-dark btn-full">Book Workshop</a>
+        <a href="#contact" class="btn btn-dark btn-full">Request Demo</a>
+      </div>
+    </div>
+  </nav>
+  <!-- Mobile overlay -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <div class="nav-breadcrumb">
+    <div class="container">Services &rsaquo; <span>Site Reliability Engineering</span></div>
+  </div>
+
+  <!-- ======= HERO ======= -->
+  <section class="hero">
+    <div class="hero-bg-image"></div>
+    <div class="container hero-inner">
+
+      <div class="hero-left">
+        <div class="hero-tag">
+          <span class="hero-tag-dot"></span>
+          AI-Native Site Reliability Engineering
+        </div>
+        <h1>
+          Reliability Reimagined.<br />
+          Powered by <span class="teal">AI.</span>
+        </h1>
+        <p class="hero-sub">
+          We don't just keep your systems alive — we make them <strong>self-healing, self-optimizing, and future-proof.</strong>
+          CloudSufi's AI-augmented SRE practice blends battle-tested reliability engineering with generative AI,
+          AIOps, and autonomous remediation.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-teal btn-lg">Get a Free SRE Assessment</a>
+          <a href="#offerings" class="btn btn-outline-white btn-lg">Explore Offerings</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="terminal-card">
+          <div class="term-header">
+            <span class="tdot r"></span><span class="tdot y"></span><span class="tdot g"></span>
+            <span class="term-title">ReliabilityGPT — AI Incident Console</span>
+          </div>
+          <div class="term-body">
+            <div class="tline"><span class="ttime">09:14:22</span><span class="ttag warn">ANOMALY</span><span class="ttext">Latency spike — payments-svc p99 &gt; 2.3s</span></div>
+            <div class="tline"><span class="ttime">09:14:23</span><span class="ttag ai">AI-RCA</span><span class="ttext">Root cause: DB connection pool exhausted (100/100)</span></div>
+            <div class="tline"><span class="ttime">09:14:24</span><span class="ttag act">ACTION</span><span class="ttext">Auto-scaling triggered → +4 replicas provisioned</span></div>
+            <div class="tline"><span class="ttime">09:14:28</span><span class="ttag ai">AI-RCA</span><span class="ttext">Missing index on payments.transaction_id confirmed</span></div>
+            <div class="tline"><span class="ttime">09:14:31</span><span class="ttag ok">RESOLVED</span><span class="ttext">p99 latency restored → 178ms ↓ SLO healthy</span></div>
+            <div class="tline dim"><span class="ttime">09:14:32</span><span class="ttag info">INFO</span><span class="ttext">Post-mortem drafted → Sent to Slack #incidents</span></div>
+          </div>
+          <div class="term-footer">
+            <span class="tf-metric">MTTR: <strong>9 seconds</strong></span>
+            <span class="tf-badge">Zero human intervention</span>
+          </div>
+        </div>
+        <div class="hero-pill p1">
+          <span class="pill-dot green"></span> SLO Health: 99.97%
+        </div>
+        <div class="hero-pill p2">
+          <span class="pill-dot teal"></span> AI Confidence: 96%
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="stat-val" data-target="99.99" data-suffix="%" data-decimals="2">99.99%</div>
+          <div class="stat-desc">Uptime SLA Delivered</div>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-val" data-target="70" data-suffix="%" data-decimals="0">70%</div>
+          <div class="stat-desc">MTTD Reduction via AIOps</div>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-val" data-target="85" data-suffix="%" data-decimals="0">85%</div>
+          <div class="stat-desc">Incidents Auto-Remediated</div>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-val" data-target="3" data-suffix="×" data-decimals="0">3×</div>
+          <div class="stat-desc">Faster Deployment Cycles</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= TRUST BAR ======= -->
+  <section class="trust-bar">
+    <div class="container trust-inner">
+      <p class="trust-label">Trusted by engineering teams at</p>
+      <div class="trust-logos">
+        <span class="trust-logo">Google Cloud</span>
+        <span class="trust-logo">Happy Money</span>
+        <span class="trust-logo">Procore</span>
+        <span class="trust-logo">Dematic</span>
+        <span class="trust-logo">Aura</span>
+        <span class="trust-logo">Kinaxis</span>
+        <span class="trust-logo">City of Hope</span>
+        <span class="trust-logo">FFF Enterprises</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= INTRO / WHAT IS AI-SRE ======= -->
+  <section class="intro-section">
+    <div class="container">
+      <div class="intro-grid">
+
+        <div class="intro-left reveal">
+          <div class="eyebrow">The CloudSufi SRE Difference</div>
+          <h2>Traditional SRE is<br /><span class="teal">not enough</span> anymore</h2>
+          <p>Modern distributed systems — microservices, multi-cloud, serverless, AI/ML pipelines — generate millions of signals per minute. Human teams alone cannot detect, correlate, and respond fast enough.</p>
+          <p>CloudSufi layers <strong>Generative AI, machine learning, and intelligent automation</strong> on top of proven SRE practices — turning reactive firefighting into proactive, autonomous reliability.</p>
+          <ul class="check-list">
+            <li><span class="check-icon">✓</span> AI-driven anomaly detection before users feel impact</li>
+            <li><span class="check-icon">✓</span> LLM-powered runbooks that diagnose and fix automatically</li>
+            <li><span class="check-icon">✓</span> SLO-based reliability tied directly to business outcomes</li>
+            <li><span class="check-icon">✓</span> Continuous chaos engineering to harden every release</li>
+            <li><span class="check-icon">✓</span> Full-stack observability — metrics, logs, traces unified</li>
+          </ul>
+        </div>
+
+        <div class="intro-right reveal">
+          <div class="intro-visual-card">
+            <div class="ivc-header">
+              <div class="ivc-dots">
+                <span class="ivc-dot r"></span><span class="ivc-dot y"></span><span class="ivc-dot g"></span>
+              </div>
+              <span class="ivc-label">AI Incident Intelligence</span>
+            </div>
+            <div class="ivc-body">
+              <div class="ivc-row"><span class="ivc-t">09:14:22</span><span class="ivc-tag warn">ANOMALY</span><span class="ivc-text">Latency spike — p99 &gt; 2.3s on payments-svc</span></div>
+              <div class="ivc-row"><span class="ivc-t">09:14:23</span><span class="ivc-tag ai">AI-RCA</span><span class="ivc-text">Root cause: DB connection pool exhausted</span></div>
+              <div class="ivc-row"><span class="ivc-t">09:14:24</span><span class="ivc-tag act">ACTION</span><span class="ivc-text">Auto-scaling triggered → +4 replicas</span></div>
+              <div class="ivc-row"><span class="ivc-t">09:14:31</span><span class="ivc-tag ok">RESOLVED</span><span class="ivc-text">p99 latency 178ms ↓ — SLO restored</span></div>
+              <div class="ivc-row"><span class="ivc-t">09:14:32</span><span class="ivc-tag info">INFO</span><span class="ivc-text">Post-mortem generated → Slack #incidents</span></div>
+            </div>
+            <div class="ivc-footer">
+              <span class="ivc-metric">MTTR: <strong>9 seconds</strong></span>
+              <span class="ivc-badge">Zero human intervention</span>
+            </div>
+          </div>
+          <div class="intro-pill p1"><span style="width:8px;height:8px;border-radius:50%;background:#27C93F;flex-shrink:0"></span> SLO Health: 99.97%</div>
+          <div class="intro-pill p2"><span style="width:8px;height:8px;border-radius:50%;background:#ED2024;flex-shrink:0"></span> AI Confidence: 94%</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= COMPARISON TABLE ======= -->
+  <section class="comparison-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow">The Difference</div>
+        <h2>Traditional SRE vs AI-SRE with CloudSufi</h2>
+      </div>
+      <div class="comparison-table-wrap reveal">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th class="cmp-topic">Capability</th>
+              <th class="cmp-traditional">Traditional SRE</th>
+              <th class="cmp-cloudsufi">CloudSufi AI-SRE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="cmp-topic">Alert Handling</td>
+              <td class="cmp-traditional"><span class="cmp-no">✗</span> Manual triage of 1000s of alerts</td>
+              <td class="cmp-cloudsufi"><span class="cmp-yes">✓</span> AI correlation → 95% noise reduction</td>
+            </tr>
+            <tr>
+              <td class="cmp-topic">Incident Detection</td>
+              <td class="cmp-traditional"><span class="cmp-no">✗</span> Reactive — after users report</td>
+              <td class="cmp-cloudsufi"><span class="cmp-yes">✓</span> Predictive — before users feel it</td>
+            </tr>
+            <tr>
+              <td class="cmp-topic">Root Cause Analysis</td>
+              <td class="cmp-traditional"><span class="cmp-no">✗</span> Hours of manual log digging</td>
+              <td class="cmp-cloudsufi"><span class="cmp-yes">✓</span> AI-generated RCA in seconds</td>
+            </tr>
+            <tr>
+              <td class="cmp-topic">Remediation</td>
+              <td class="cmp-traditional"><span class="cmp-no">✗</span> On-call engineer woken at 3am</td>
+              <td class="cmp-cloudsufi"><span class="cmp-yes">✓</span> Auto-remediation resolves 85% of incidents</td>
+            </tr>
+            <tr>
+              <td class="cmp-topic">Runbooks</td>
+              <td class="cmp-traditional"><span class="cmp-no">✗</span> Static docs, often outdated</td>
+              <td class="cmp-cloudsufi"><span class="cmp-yes">✓</span> LLM-generated, auto-executed playbooks</td>
+            </tr>
+            <tr>
+              <td class="cmp-topic">Capacity Planning</td>
+              <td class="cmp-traditional"><span class="cmp-no">✗</span> Monthly manual reviews</td>
+              <td class="cmp-cloudsufi"><span class="cmp-yes">✓</span> Continuous AI-driven forecasting</td>
+            </tr>
+            <tr>
+              <td class="cmp-topic">Cost Visibility</td>
+              <td class="cmp-traditional"><span class="cmp-no">✗</span> Cloud bills arrive as surprises</td>
+              <td class="cmp-cloudsufi"><span class="cmp-yes">✓</span> Real-time spend anomaly detection</td>
+            </tr>
+            <tr>
+              <td class="cmp-topic">Post-mortems</td>
+              <td class="cmp-traditional"><span class="cmp-no">✗</span> Written manually, days later</td>
+              <td class="cmp-cloudsufi"><span class="cmp-yes">✓</span> Auto-generated in seconds after resolution</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CORE OFFERINGS ======= -->
+  <section class="offerings-section" id="offerings">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">Core Service Offerings</div>
+        <h2>Everything your reliability stack needs</h2>
+        <p>Eight AI-first SRE capabilities delivered as a unified, integrated practice</p>
+      </div>
+      <div class="offerings-grid">
+
+        <div class="offering-card featured reveal">
+          <span class="card-chip">Most Popular</span>
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L22 7v10L12 22 2 17V7L12 2z" stroke="#ED2024" stroke-width="1.5"/><circle cx="12" cy="12" r="3" fill="#ED2024"/><path d="M12 7v2M12 15v2M7 12h2M15 12h2" stroke="#ED2024" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>AIOps &amp; Intelligent Observability</h3>
+          <p>Unified telemetry platform enriched with ML anomaly detection and AI correlation. Catch issues 10× faster with predictive alerting that learns your system's baseline.</p>
+          <ul class="offering-bullets">
+            <li>Predictive anomaly detection</li>
+            <li>AI-powered alert correlation &amp; noise reduction</li>
+            <li>Distributed tracing with auto-insight</li>
+            <li>Dashboards built for on-call engineers</li>
+          </ul>
+          <a href="#contact" class="card-link">Learn More →</a>
+        </div>
+
+        <div class="offering-card reveal">
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 12h4l3-7 4 14 3-7h4" stroke="#ED2024" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Autonomous Incident Response</h3>
+          <p>AI-generated runbooks that don't just suggest — they act. Our engine automatically triages, executes fix playbooks, and escalates only when human judgment is truly needed.</p>
+          <ul class="offering-bullets">
+            <li>LLM-powered root cause analysis</li>
+            <li>Auto-remediation playbooks</li>
+            <li>Intelligent PagerDuty/OpsGenie routing</li>
+            <li>Automated post-mortem generation</li>
+          </ul>
+          <a href="#contact" class="card-link">Learn More →</a>
+        </div>
+
+        <div class="offering-card reveal">
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#ED2024" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="#ED2024" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>SLO Engineering &amp; Error Budgets</h3>
+          <p>Define reliability in terms of user experience, not just uptime. We engineer SLI/SLO frameworks tied to real business KPIs with error budget burn alerts.</p>
+          <ul class="offering-bullets">
+            <li>SLI/SLO/SLA design &amp; implementation</li>
+            <li>Error budget dashboards &amp; burn alerts</li>
+            <li>Release risk scoring</li>
+            <li>Business-aligned reliability targets</li>
+          </ul>
+          <a href="#contact" class="card-link">Learn More →</a>
+        </div>
+
+        <div class="offering-card reveal">
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1.5" stroke="#ED2024" stroke-width="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5" stroke="#ED2024" stroke-width="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5" stroke="#ED2024" stroke-width="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5" stroke="#ED2024" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Platform Engineering &amp; IDP</h3>
+          <p>Build a golden path that lets developers self-serve infrastructure confidently. We design IDPs on Kubernetes, Backstage, and Crossplane with AI guardrails baked in.</p>
+          <ul class="offering-bullets">
+            <li>Backstage IDP setup &amp; plugins</li>
+            <li>Kubernetes cluster management</li>
+            <li>GitOps with ArgoCD / Flux</li>
+            <li>AI-assisted infrastructure provisioning</li>
+          </ul>
+          <a href="#contact" class="card-link">Learn More →</a>
+        </div>
+
+        <div class="offering-card reveal">
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z" stroke="#ED2024" stroke-width="1.5"/><path d="M8 12s1.5-3.5 4-3.5S16 12 16 12s-1.5 3.5-4 3.5S8 12 8 12z" stroke="#ED2024" stroke-width="1.5"/><circle cx="12" cy="12" r="1.5" fill="#ED2024"/></svg>
+          </div>
+          <h3>Chaos Engineering &amp; Resilience</h3>
+          <p>Break things in controlled ways before production does it for you. AI-guided chaos experiments target weak points predicted by failure mode analysis.</p>
+          <ul class="offering-bullets">
+            <li>AI-prioritized failure scenario generation</li>
+            <li>Game day design &amp; execution</li>
+            <li>Litmus / Chaos Mesh orchestration</li>
+            <li>Resilience scoring &amp; trending</li>
+          </ul>
+          <a href="#contact" class="card-link">Learn More →</a>
+        </div>
+
+        <div class="offering-card reveal">
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 17l5-5 4 4 9-10" stroke="#ED2024" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 4h20M2 8h12" stroke="#ED2024" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>FinOps &amp; Cloud Cost Reliability</h3>
+          <p>Reliability doesn't just mean uptime — it means predictable costs. AI-driven cloud cost models prevent budget blowouts and optimize spend without sacrificing performance.</p>
+          <ul class="offering-bullets">
+            <li>AI-driven cost anomaly detection</li>
+            <li>Rightsizing &amp; commitment recommendations</li>
+            <li>Multi-cloud cost visibility</li>
+            <li>Spend guardrails with auto-enforcement</li>
+          </ul>
+          <a href="#contact" class="card-link">Learn More →</a>
+        </div>
+
+        <div class="offering-card reveal">
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2l2.5 7h7l-5.7 4.1 2.2 7L12 16l-6 4.1 2.2-7L2.5 9h7L12 2z" stroke="#ED2024" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>MLOps &amp; AI System Reliability</h3>
+          <p>AI systems need SRE too. We monitor model drift, data quality, feature store health, and inference latency with specialized observability tooling for ML pipelines.</p>
+          <ul class="offering-bullets">
+            <li>Model drift &amp; degradation detection</li>
+            <li>Training pipeline reliability</li>
+            <li>Inference SLOs &amp; latency budgets</li>
+            <li>Feature store &amp; data quality monitoring</li>
+          </ul>
+          <a href="#contact" class="card-link">Learn More →</a>
+        </div>
+
+        <div class="offering-card reveal">
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="7" width="18" height="13" rx="2" stroke="#ED2024" stroke-width="1.5"/><path d="M8 7V5a4 4 0 118 0v2" stroke="#ED2024" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="13" r="2" stroke="#ED2024" stroke-width="1.5"/><path d="M12 15v2" stroke="#ED2024" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Security &amp; Compliance Reliability</h3>
+          <p>Shift-left security with SRE velocity. Automated compliance checks, vulnerability scanning, and policy-as-code integrated into your delivery pipeline.</p>
+          <ul class="offering-bullets">
+            <li>Policy-as-code with OPA / Kyverno</li>
+            <li>CSPM &amp; runtime security monitoring</li>
+            <li>DORA metrics &amp; compliance dashboards</li>
+            <li>Automated SOC2 / ISO27001 evidence</li>
+          </ul>
+          <a href="#contact" class="card-link">Learn More →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= AI SECTION ======= -->
+  <section class="ai-section">
+    <div class="container">
+      <div class="ai-grid">
+
+        <div class="ai-left reveal">
+          <div class="eyebrow eyebrow--dark">Generative AI in SRE</div>
+          <h2>The AI brain behind<br />your reliability</h2>
+          <p>CloudSufi's proprietary <strong>ReliabilityGPT</strong> engine connects to your observability stack, incident management tools, and deployment pipelines — creating an AI co-pilot that understands your system's history, topology, and risk profile.</p>
+          <div class="ai-features">
+            <div class="ai-feat">
+              <div class="ai-feat-icon">🧠</div>
+              <div class="ai-feat-text">
+                <strong>Contextual Root Cause Analysis</strong>
+                <p>Understands your service topology and past incidents to pinpoint root cause — not just symptoms.</p>
+              </div>
+            </div>
+            <div class="ai-feat">
+              <div class="ai-feat-icon">📋</div>
+              <div class="ai-feat-text">
+                <strong>Auto-Generated Runbooks</strong>
+                <p>LLM drafts and executes step-by-step remediation based on alert context and historical fixes.</p>
+              </div>
+            </div>
+            <div class="ai-feat">
+              <div class="ai-feat-icon">🔮</div>
+              <div class="ai-feat-text">
+                <strong>Predictive Alerting</strong>
+                <p>ML models forecast resource exhaustion and latency degradation hours ahead of impact.</p>
+              </div>
+            </div>
+            <div class="ai-feat">
+              <div class="ai-feat-icon">📝</div>
+              <div class="ai-feat-text">
+                <strong>Auto Incident Narratives</strong>
+                <p>Post-mortems with timeline, impact analysis, and prevention recommendations — generated instantly.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ai-right reveal">
+          <div class="chat-demo">
+            <div class="chat-header">
+              <div class="chat-av">AI</div>
+              <div class="chat-info">
+                <strong>ReliabilityGPT</strong>
+                <span><span class="live-dot"></span> Live &amp; Monitoring</span>
+              </div>
+            </div>
+            <div class="chat-body">
+              <div class="cmsg user"><span>What caused the 3am incident on payments-svc?</span></div>
+              <div class="cmsg ai">
+                <span>
+                  <strong>Root Cause Analysis — payments-svc (2026-04-20 03:14 UTC)</strong><br /><br />
+                  Triggered by <span class="hl">cascading DB connection pool exhaustion</span> on the PostgreSQL primary.<br /><br />
+                  <strong>Chain of events:</strong><br />
+                  → 03:07 deployment missing a DB index<br />
+                  → Query p99 spiked 12ms → 4.2s<br />
+                  → Connection pool hit max (100) in 7 min<br />
+                  → Circuit breaker tripped → 503s downstream<br /><br />
+                  <strong>Auto-remediation applied:</strong> Read replica promoted, index backfilled.<br />
+                  <strong>MTTR: 6 min 42 sec</strong><br /><br />
+                  Post-mortem drafted → <span class="cl">View Report ↗</span>
+                </span>
+              </div>
+              <div class="cmsg user"><span>Add missing index detection to our deploy gates?</span></div>
+              <div class="cmsg ai">
+                <span>Done. Added a <strong>DB migration pre-check</strong> to your ArgoCD pipeline. Any deployment touching schema migrations will now run an explain-plan check before promotion to production.<br /><br />PR raised → <span class="cl">github.com/org/infra #847 ↗</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= VIDEO DEMO PLACEHOLDER ======= -->
+  <section class="video-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow eyebrow--dark">Live Demo</div>
+        <h2 style="color:#fff;">See ReliabilityGPT in action</h2>
+      </div>
+      <div class="video-card-wrap reveal">
+        <div class="video-card">
+          <div class="video-play-btn" role="button" tabindex="0" aria-label="Play demo video">
+            <svg width="28" height="32" viewBox="0 0 28 32" fill="none"><path d="M2 2l24 14L2 30V2z" fill="#fff"/></svg>
+          </div>
+          <p class="video-caption">ReliabilityGPT Demo — Watch 4 min walkthrough</p>
+        </div>
+        <p class="video-meta">2 minute setup &nbsp;·&nbsp; No credit card &nbsp;·&nbsp; Instant access</p>
+      </div>
+      <div class="video-pills reveal">
+        <span class="video-pill">🔴 Live incident detection</span>
+        <span class="video-pill">🤖 AI root cause analysis</span>
+        <span class="video-pill">⚡ Auto-remediation</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= PROCESS ======= -->
+  <section class="process-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">Our Engagement Model</div>
+        <h2>From Day 1 to continuous reliability</h2>
+        <p>A structured, low-disruption onboarding delivering measurable outcomes within 30 days</p>
+      </div>
+      <div class="process-grid">
+        <div class="process-step reveal">
+          <div class="step-num">01</div>
+          <h4>Discovery &amp; Reliability Audit</h4>
+          <p>We map your architecture, toil inventory, on-call burden, incident history, and SLO gaps. Delivered as an actionable Reliability Scorecard.</p>
+          <span class="step-badge">Week 1–2</span>
+        </div>
+        <div class="process-step reveal">
+          <div class="step-num">02</div>
+          <h4>Observability Foundation</h4>
+          <p>Deploy unified observability — OpenTelemetry, Prometheus, Grafana or your preferred toolchain — with AI enrichment layer and baseline SLOs.</p>
+          <span class="step-badge">Week 2–4</span>
+        </div>
+        <div class="process-step reveal">
+          <div class="step-num">03</div>
+          <h4>AI Engine Integration</h4>
+          <p>Wire ReliabilityGPT into your incident workflow. Configure auto-remediation playbooks, noise reduction policies, and escalation logic.</p>
+          <span class="step-badge">Month 2</span>
+        </div>
+        <div class="process-step reveal">
+          <div class="step-num">04</div>
+          <h4>Continuous Improvement</h4>
+          <p>Monthly reliability reviews, chaos game days, SLO refinements, and AI model retraining — your reliability improves every sprint.</p>
+          <span class="step-badge">Ongoing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= TECH STACK ======= -->
+  <section class="tech-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">Technology Ecosystem</div>
+        <h2>Tool-agnostic. Best-in-class integrations.</h2>
+      </div>
+      <div class="tech-grid">
+        <div class="tech-cat reveal">
+          <h5>Observability</h5>
+          <div class="tech-pills">
+            <span>Datadog</span><span>Grafana</span><span>Prometheus</span>
+            <span>OpenTelemetry</span><span>Dynatrace</span><span>New Relic</span>
+          </div>
+        </div>
+        <div class="tech-cat reveal">
+          <h5>Cloud &amp; Orchestration</h5>
+          <div class="tech-pills">
+            <span>AWS</span><span>GCP</span><span>Azure</span>
+            <span>Kubernetes</span><span>Terraform</span><span>Crossplane</span>
+          </div>
+        </div>
+        <div class="tech-cat reveal">
+          <h5>Incident Management</h5>
+          <div class="tech-pills">
+            <span>PagerDuty</span><span>OpsGenie</span><span>Incident.io</span>
+            <span>Jira</span><span>ServiceNow</span><span>Slack</span>
+          </div>
+        </div>
+        <div class="tech-cat reveal">
+          <h5>CI/CD &amp; GitOps</h5>
+          <div class="tech-pills">
+            <span>ArgoCD</span><span>GitHub Actions</span><span>Flux</span>
+            <span>Tekton</span><span>Jenkins</span><span>Backstage</span>
+          </div>
+        </div>
+        <div class="tech-cat reveal">
+          <h5>AI &amp; ML</h5>
+          <div class="tech-pills">
+            <span>Vertex AI</span><span>Claude API</span><span>OpenAI</span>
+            <span>Langchain</span><span>MLflow</span><span>Kubeflow</span>
+          </div>
+        </div>
+        <div class="tech-cat reveal">
+          <h5>Security &amp; Compliance</h5>
+          <div class="tech-pills">
+            <span>OPA</span><span>Kyverno</span><span>Falco</span>
+            <span>Trivy</span><span>Wiz</span><span>AWS Security Hub</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= PARTNER BADGES ======= -->
+  <section class="badges-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow">Certifications &amp; Partnerships</div>
+        <h2>Built on enterprise-grade foundations</h2>
+      </div>
+      <div class="badges-grid">
+        <div class="badge-card reveal">
+          <div class="badge-icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect width="36" height="36" rx="8" fill="#4285F4" opacity="0.1"/><path d="M18 8l4 8h8l-6.5 5 2.5 8L18 24l-8 5 2.5-8L6 16h8l4-8z" stroke="#4285F4" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="badge-name">Google Cloud Partner</div>
+          <div class="badge-sub">Premier</div>
+        </div>
+        <div class="badge-card reveal">
+          <div class="badge-icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect width="36" height="36" rx="8" fill="#FF9900" opacity="0.1"/><path d="M10 18h16M18 10v16" stroke="#FF9900" stroke-width="2" stroke-linecap="round"/><rect x="8" y="8" width="20" height="20" rx="4" stroke="#FF9900" stroke-width="1.5"/></svg>
+          </div>
+          <div class="badge-name">AWS Partner</div>
+          <div class="badge-sub">Advanced</div>
+        </div>
+        <div class="badge-card reveal">
+          <div class="badge-icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect width="36" height="36" rx="8" fill="#0078D4" opacity="0.1"/><path d="M10 22l8-12 8 12H10z" stroke="#0078D4" stroke-width="1.5" stroke-linejoin="round"/><circle cx="18" cy="24" r="3" stroke="#0078D4" stroke-width="1.5"/></svg>
+          </div>
+          <div class="badge-name">Microsoft Azure</div>
+          <div class="badge-sub">Gold Partner</div>
+        </div>
+        <div class="badge-card reveal">
+          <div class="badge-icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect width="36" height="36" rx="8" fill="#326CE5" opacity="0.1"/><circle cx="18" cy="18" r="8" stroke="#326CE5" stroke-width="1.5"/><path d="M18 10v16M10 18h16" stroke="#326CE5" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div class="badge-name">CNCF Member</div>
+          <div class="badge-sub">Cloud Native</div>
+        </div>
+        <div class="badge-card reveal">
+          <div class="badge-icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect width="36" height="36" rx="8" fill="#27C93F" opacity="0.1"/><path d="M12 18l4 4 8-8" stroke="#27C93F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="8" y="8" width="20" height="20" rx="4" stroke="#27C93F" stroke-width="1.5"/></svg>
+          </div>
+          <div class="badge-name">SOC 2 Type II</div>
+          <div class="badge-sub">Certified</div>
+        </div>
+        <div class="badge-card reveal">
+          <div class="badge-icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect width="36" height="36" rx="8" fill="#ED2024" opacity="0.1"/><path d="M18 8l3 4h4l-3 3 1 5-5-3-5 3 1-5-3-3h4l3-4z" stroke="#ED2024" stroke-width="1.5" stroke-linejoin="round"/><path d="M12 24v4h12v-4" stroke="#ED2024" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="badge-name">ISO 27001</div>
+          <div class="badge-sub">Certified</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= OUTCOMES ======= -->
+  <section class="outcomes-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">Customer Outcomes</div>
+        <h2>Real impact. Measurable results.</h2>
+      </div>
+      <div class="outcomes-grid">
+        <div class="outcome-card reveal">
+          <div class="outcome-num" data-target="99" data-suffix="%↓" data-decimals="0">99%↓</div>
+          <div class="outcome-label">Alert Noise Reduction</div>
+          <span class="outcome-tag">Fintech — Payment Platform</span>
+          <p>Replaced 40,000+ daily alerts with 200 high-signal incidents using AI correlation. On-call burnout eliminated.</p>
+        </div>
+        <div class="outcome-card reveal">
+          <div class="outcome-num" data-target="8" data-suffix=" min" data-decimals="0">8 min</div>
+          <div class="outcome-label">Average MTTR (down from 4hrs)</div>
+          <span class="outcome-tag">E-Commerce — Retail</span>
+          <p>Auto-remediation playbooks handle 85% of P2 incidents end-to-end without human intervention.</p>
+        </div>
+        <div class="outcome-card reveal">
+          <div class="outcome-num" data-target="2.4" data-suffix="M" data-prefix="$" data-decimals="1">$2.4M</div>
+          <div class="outcome-label">Annual Cloud Cost Savings</div>
+          <span class="outcome-tag">SaaS — Digital Native</span>
+          <p>AI-powered rightsizing eliminated over-provisioning across 3 cloud providers.</p>
+        </div>
+        <div class="outcome-card reveal">
+          <div class="outcome-num" data-target="99.99" data-suffix="%" data-decimals="2">99.99%</div>
+          <div class="outcome-label">SLA Achievement</div>
+          <span class="outcome-tag">Healthcare — Data Platform</span>
+          <p>Zero customer-impacting incidents in 18 months after deploying predictive failure detection.</p>
+        </div>
+        <div class="outcome-card reveal">
+          <div class="outcome-num" data-target="3" data-suffix="×" data-decimals="0">3×</div>
+          <div class="outcome-label">Deployment Frequency</div>
+          <span class="outcome-tag">Automotive — IoT Platform</span>
+          <p>IDP reduced developer friction. Teams went from weekly to daily deployments with higher confidence.</p>
+        </div>
+        <div class="outcome-card reveal">
+          <div class="outcome-num" data-target="70" data-suffix="%" data-decimals="0">70%</div>
+          <div class="outcome-label">Reduction in Toil</div>
+          <span class="outcome-tag">Energy — Cloud Migration</span>
+          <p>Automation eliminated repetitive ops tasks. SRE team refocused 70% of capacity on product reliability.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= WHY CLOUDSUFI ======= -->
+  <section class="why-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">Why CloudSufi SRE</div>
+        <h2>The unfair advantages we bring</h2>
+        <p style="color:rgba(255,255,255,0.5)">Six reasons engineering leaders choose CloudSufi for mission-critical reliability</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-num-large">01</div>
+          <h4>AI-First, Not AI-Bolted-On</h4>
+          <p>Our SRE practice was designed around AI from day one. Every tool, process, and playbook is built to leverage intelligent automation — not retrofit it.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-num-large">02</div>
+          <h4>20+ Years Enterprise Pedigree</h4>
+          <p>Our SRE leads come from Google, Amazon, Microsoft, and KPMG. We combine Silicon Valley reliability culture with enterprise-grade change management.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-num-large">03</div>
+          <h4>Embedded, Not Outsourced</h4>
+          <p>We integrate into your engineering org — attending standups, joining your Slack, contributing to runbooks. We function like an extension of your team.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-num-large">04</div>
+          <h4>Outcome-Based Contracts</h4>
+          <p>We tie our commercial model to SLO achievement, MTTR targets, and toil reduction metrics. We win when you win — no vague "best efforts" clauses.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-num-large">05</div>
+          <h4>Platform Agnostic</h4>
+          <p>AWS, GCP, Azure, on-prem, hybrid — certified practitioners across all major clouds and toolchains. No lock-in, no forced migrations.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-num-large">06</div>
+          <h4>Knowledge Transfer by Design</h4>
+          <p>Every engagement includes structured upskilling. When we leave, your engineers are more capable — not more dependent on us.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= TESTIMONIALS ======= -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">What Our Clients Say</div>
+        <h2>Engineering leaders trust CloudSufi SRE</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="quote-mark">"</div>
+          <p>CloudSufi's AI-powered observability transformed our on-call culture. We went from 40+ alerts a night to a calm, signal-rich environment. Our engineers sleep again.</p>
+          <div class="testimonial-author">
+            <div class="author-av">VP</div>
+            <div>
+              <strong>VP of Engineering</strong>
+              <span>Leading Fintech Platform</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured reveal">
+          <div class="quote-mark">"</div>
+          <p>The ReliabilityGPT assistant diagnosed a production incident while our team was still reading the alert. By the time I opened my laptop, the fix was already in production. That's the future of SRE.</p>
+          <div class="testimonial-author">
+            <div class="author-av">CTO</div>
+            <div>
+              <strong>Chief Technology Officer</strong>
+              <span>E-Commerce Scale-up</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="quote-mark">"</div>
+          <p>We needed SRE expertise fast — CloudSufi was embedded in 2 weeks and shipping improvements in 4. Their platform engineering IDP cut our deployment lead time by 60%.</p>
+          <div class="testimonial-author">
+            <div class="author-av">EM</div>
+            <div>
+              <strong>Engineering Manager</strong>
+              <span>SaaS Platform Company</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= PRICING ======= -->
+  <section class="pricing-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">Engagement Models</div>
+        <h2>Right-sized for your team</h2>
+        <p>Whether you're a startup scaling fast or an enterprise modernizing, we have a model that fits</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card reveal">
+          <div class="plan-name">Starter</div>
+          <div class="plan-desc">For startups and scale-ups establishing their reliability foundation</div>
+          <ul class="plan-features">
+            <li>Observability stack deployment</li>
+            <li>SLO framework design</li>
+            <li>On-call process optimization</li>
+            <li>AI alert correlation setup</li>
+            <li>Monthly reliability review</li>
+            <li>2 dedicated SREs</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-dark btn-full">Get Started</a>
+        </div>
+        <div class="pricing-card featured-plan reveal">
+          <div class="plan-popular">Most Popular</div>
+          <div class="plan-name">Growth</div>
+          <div class="plan-desc">For mid-market teams running critical systems with complex on-call needs</div>
+          <ul class="plan-features">
+            <li>Everything in Starter</li>
+            <li>Auto-remediation playbooks</li>
+            <li>ReliabilityGPT integration</li>
+            <li>Chaos engineering program</li>
+            <li>FinOps &amp; cost optimization</li>
+            <li>Platform engineering IDP</li>
+            <li>4 dedicated SREs + AI lead</li>
+          </ul>
+          <a href="#contact" class="btn btn-dark btn-full">Get Started</a>
+        </div>
+        <div class="pricing-card reveal">
+          <div class="plan-name">Enterprise</div>
+          <div class="plan-desc">For large-scale systems demanding the highest reliability and compliance standards</div>
+          <ul class="plan-features">
+            <li>Everything in Growth</li>
+            <li>MLOps reliability engineering</li>
+            <li>Security &amp; compliance automation</li>
+            <li>24/7 AI-augmented NOC</li>
+            <li>Executive reliability reporting</li>
+            <li>Dedicated reliability architect</li>
+            <li>Custom SLA guarantees</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-dark btn-full">Talk to Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FAQ ======= -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="eyebrow">FAQ</div>
+        <h2>Frequently asked questions</h2>
+      </div>
+      <div class="faq-list">
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            What makes CloudSufi SRE different from hiring in-house SREs?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a-inner">
+              <p>CloudSufi brings AI-augmented SRE capability that would take 6+ months to build in-house. Our team of specialists is embedded within 2 weeks, and you get immediate access to our proprietary ReliabilityGPT engine, proven playbooks, and cross-industry patterns. Unlike a single hire, there's no single-point-of-failure — you get a full team with diverse expertise. Every engagement includes structured knowledge transfer so your team grows alongside ours.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            How quickly can you be embedded into our team?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a-inner">
+              <p>Our onboarding is intentionally fast. We're typically embedded within 2 weeks of signing, with first measurable improvements delivered within 4 weeks (usually in observability and alert noise reduction). The full AI engine — ReliabilityGPT with auto-remediation — is live in 6–8 weeks. This is dramatically faster than hiring, which takes 3–6 months before a new SRE can be fully productive.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            Do you replace our existing tools or work alongside them?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a-inner">
+              <p>We are completely tool-agnostic. CloudSufi integrates with your existing investments — Datadog, PagerDuty, Jira, Slack, OpsGenie, ServiceNow, and virtually any observability or incident management platform. We don't force migrations or rip-and-replace. Our AI layer sits on top of your current stack and enriches it with intelligence. If you want to migrate to better tooling, we can help plan that separately.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            What cloud platforms do you support?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a-inner">
+              <p>We support all major cloud platforms: AWS, Google Cloud Platform, and Microsoft Azure. We also work with on-premises infrastructure, hybrid environments, and complex multi-cloud architectures. Our practitioners hold active certifications across all three major clouds. We have no preferred vendor — our goal is to make your systems reliable regardless of where they run.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            How does ReliabilityGPT learn our systems?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a-inner">
+              <p>ReliabilityGPT connects to your observability stack and ingests historical incident data, alert patterns, and deployment records. During onboarding, we perform topology mapping to understand service dependencies. The AI then builds a contextual model of your system, learning which alerts correlate with which failures, and which fixes have historically worked. It improves continuously — every incident it handles makes it smarter about your specific environment.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            What is your SLA guarantee?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a-inner">
+              <p>We offer outcome-based contracts tied to measurable targets — not vague best-efforts language. Typical SLA commitments include specific MTTR reduction targets, SLO achievement percentages, and toil reduction metrics. Our commercial model is designed so that we benefit when you succeed. Enterprise engagements include custom SLA guarantees defined collaboratively based on your current baseline and target state.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            Can you help if we have no SRE practice today?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a-inner">
+              <p>Yes — greenfield engagements are common and actually where we often deliver the most dramatic results. Starting from scratch means no legacy processes to work around. We'll design and implement your observability foundation, incident management workflow, on-call schedules, SLO framework, and AI layer together. You'll have a mature, AI-powered SRE practice in place within 8–12 weeks.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            How do you handle security and data privacy?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a-inner">
+              <p>Security and data privacy are foundational to everything we do. We are SOC 2 Type II certified and ISO 27001 certified. Raw log data and sensitive payloads never leave your environment — our AI processes data in-place or via secure, encrypted pipelines. All access is role-based with full audit trails. We work within your existing security perimeter and can adapt to air-gapped environments where required.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            What does onboarding look like?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a-inner">
+              <p>Our onboarding follows a proven 4-step process: <strong>Discovery</strong> (architecture review, incident history analysis, reliability scorecard) → <strong>Observability Foundation</strong> (unified telemetry, baseline SLOs, AI alert enrichment) → <strong>AI Integration</strong> (ReliabilityGPT wiring, auto-remediation playbooks, escalation logic) → <strong>Continuous Improvement</strong> (monthly reviews, chaos game days, model retraining). Each phase has clear deliverables and milestones.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            How is pricing structured?
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a-inner">
+              <p>We offer three tiers — <strong>Starter</strong> (foundational SRE for growing teams), <strong>Growth</strong> (full AI-SRE with ReliabilityGPT for mid-market), and <strong>Enterprise</strong> (24/7 coverage, MLOps, compliance automation). All engagements are outcome-based, tied to measurable reliability metrics. Month-to-month options are available for teams that want flexibility. Contact us for a custom quote based on your environment size and target outcomes.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CONTACT ======= -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left">
+          <div class="eyebrow">Let's Connect</div>
+          <h2>Ready to make your systems<br /><span class="teal">self-healing?</span></h2>
+          <p>Book a free 45-minute SRE Assessment. We'll review your current reliability posture, identify your top 3 risk areas, and outline a 30-day action plan — no commitment required.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 2C5.686 2 3 4.686 3 8c0 4.5 6 10 6 10s6-5.5 6-10c0-3.314-2.686-6-6-6z" stroke="#ED2024" stroke-width="1.5"/><circle cx="9" cy="8" r="2" stroke="#ED2024" stroke-width="1.5"/></svg>
+              San Jose, CA (HQ) &amp; Noida, India
+            </div>
+            <div class="contact-item">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3 4h12a1 1 0 011 1v8a1 1 0 01-1 1H3a1 1 0 01-1-1V5a1 1 0 011-1z" stroke="#ED2024" stroke-width="1.5"/><path d="M2 5l7 5 7-5" stroke="#ED2024" stroke-width="1.5" stroke-linecap="round"/></svg>
+              sre@cloudsufi.com
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form class="contact-form" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label>First Name *</label>
+                <input type="text" placeholder="Jane" required />
+              </div>
+              <div class="form-group">
+                <label>Last Name *</label>
+                <input type="text" placeholder="Smith" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Business Email *</label>
+              <input type="email" placeholder="jane@company.com" required />
+            </div>
+            <div class="form-group">
+              <label>Company *</label>
+              <input type="text" placeholder="Acme Corp" required />
+            </div>
+            <div class="form-group">
+              <label>Current Challenge</label>
+              <select>
+                <option value="">Select your biggest pain point...</option>
+                <option>Too many noisy alerts / on-call burnout</option>
+                <option>Long incident resolution times</option>
+                <option>No visibility into system health</option>
+                <option>High cloud costs</option>
+                <option>Slow deployment cycles</option>
+                <option>AI/ML system reliability</option>
+                <option>Compliance &amp; security posture</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Tell us more (optional)</label>
+              <textarea placeholder="Describe your current SRE challenges or goals..." rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-teal btn-full btn-lg">Book My Free SRE Assessment →</button>
+            <p class="form-disclaimer">By submitting, you agree to our <a href="#">Privacy Policy</a>. No spam, ever.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo footer-logo">
+            <span class="logo-cloud" style="color:#fff">Cloud</span><span class="logo-sufi">Sufi</span>
+          </a>
+          <p>We make enterprise data dance — and systems sing with AI-powered reliability.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Twitter">𝕏</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+        <div class="footer-links-grid">
+          <div class="footer-col">
+            <h6>SRE Services</h6>
+            <ul>
+              <li><a href="#">AIOps &amp; Observability</a></li>
+              <li><a href="#">Incident Response</a></li>
+              <li><a href="#">SLO Engineering</a></li>
+              <li><a href="#">Platform Engineering</a></li>
+              <li><a href="#">Chaos Engineering</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h6>Company</h6>
+            <ul>
+              <li><a href="#">About CloudSufi</a></li>
+              <li><a href="#">Leadership</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h6>Resources</h6>
+            <ul>
+              <li><a href="#">Free SRE Assessment</a></li>
+              <li><a href="#">Reliability Playbook</a></li>
+              <li><a href="#">Case Studies</a></li>
+              <li><a href="#">Webinars</a></li>
+              <li><a href="#">Documentation</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 CloudSufi Inc. All rights reserved.</span>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="9" fill="#ED2024"/><path d="M5 9l3 3 5-5" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Thanks! We'll reach out within 24 hours.
+  </div>
+
+  <!-- Floating CTA Bar -->
+  <div class="floating-cta" id="floatingCta" role="complementary" aria-label="Ready to get started?">
+    <div class="floating-cta-inner">
+      <span class="floating-cta-text">Ready to make your systems self-healing?</span>
+      <a href="#contact" class="btn btn-teal">Get Free Assessment</a>
+      <button class="floating-cta-close" id="floatingCtaClose" aria-label="Close banner">&#x2715;</button>
+    </div>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 16V4M4 10l6-6 6 6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
