@@ -1,0 +1,13 @@
+# robots.txt — CloudSufi (https://www.cloudsufi.com)
+# Updated: 2026-04-24
+
+User-agent: *
+Allow: /
+
+# Block non-public utility paths if they exist
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+
+# Sitemap location
+Sitemap: https://www.cloudsufi.com/sitemap.xml
